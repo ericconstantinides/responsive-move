@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Responsive Move</title>
+	<meta name="description" content="Responsive Move - Originally Created for Flickerbox, Inc by Eric Constantinides">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+	<link rel="stylesheet" type="text/css" href="responsive-move.css" media="screen">
+	<script>document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/,'js') // remove no-js</script>
+</head>
+<body>
+
+
+<div class="js-responsive-move" data-js-responsive-move="testing">
+	<p>Content starting at the top</p>
+</div>
+<p>Impeding content in the center</p>
+<div data-js-responsive-move="testing"></div>
+<div class="js-responsive-move" data-js-responsive-move="testing2" data-js-responsive-move-breakpoint="500">
+	<p>second one top</p>
+</div>
+<p>second one bottom</p>
+<div data-js-responsive-move="testing2"></div>
+
+
+<script src="jquery-min.js"></script>
+<script src="responsive-move.js"></script>
+</body>
+</html>
+
+
+
