@@ -4,8 +4,6 @@
     <aside>
       <h3>Summary</h3>
       <p>Moves content from .js-responsive-move to its associated data-js-responsive-move</p>
-      <p class="aside-move__inner--right">For example, when the viewport is 550px or greater, this is shown on the right</p>
-      <p class="aside-move__inner--top">For example, when the viewport is less than 550px, this is shown on the top</p>
     </aside>
   </div>
   <h3>Usage</h3>
