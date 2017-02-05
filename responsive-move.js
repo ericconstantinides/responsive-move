@@ -25,9 +25,10 @@
 //			resize
 //			set
 //------------------------------------------------------------------------------
-!function($){
+jQuery(document).ready(function($) {
 	"use strict";
 	var items = document.getElementsByClassName('js-responsive-move');
+	var breakpoint = 767;
 	function responsiveMoveGo() {
 		if (window.matchMedia && window.matchMedia('(max-width: ' + breakpoint + 'px)').matches) {
 			$item.removeClass('js-responsive-move--is-active').addClass('js-responsive-move--is-inactive').html('');
@@ -51,5 +52,4 @@
 			responsiveMoveGo();
 		});
 	}
-}(jQuery);
-
+});

@@ -1,0 +1,34 @@
+h3, p {
+  margin-top: 0;
+}
+.body-container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.main-p {
+  background-color: lightyellow;
+}
+.aside-move--right {
+  float: right;
+}
+aside {
+  background-color: darkturquoise;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+.aside-move--right aside {
+  max-width: 250px;
+  margin-left: 1em;
+  background-color: yellowgreen;
+}
+.aside-move--right p {
+}
+.aside-move__inner--top,
+.aside-move__inner--right {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.aside-move--right .aside-move__inner--top,
+.aside-move--top .aside-move__inner--right {
+  display: none;
+}
