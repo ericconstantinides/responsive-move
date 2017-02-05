@@ -1,10 +1,10 @@
   <h1>Responsive Move</h1>
+  <p><a href="//ericconstantinides.github.io/responsive-move/">See it in action</a></p>
   <div class="aside-move--top" data-js-responsive-move="aside-move"></div>
   <div class="js-responsive-move aside-move--right" data-js-responsive-move="aside-move" data-js-responsive-move-breakpoint="549">
     <aside>
       <h3>Summary</h3>
-      <p>Moves content from .js-responsive-move to its associated data-js-responsive-move.
-      <br><a href="//ericconstantinides.github.io/responsive-move/">See it in action</a></p>
+      <p>Moves content from .js-responsive-move to its associated data-js-responsive-move.</p>
     </aside>
   </div>
   <h3>Usage</h3>
