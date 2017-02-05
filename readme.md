@@ -4,6 +4,7 @@
     <aside>
       <h3>Summary</h3>
       <p>Moves content from .js-responsive-move to its associated data-js-responsive-move</p>
+      <p><a href="//ericconstantinides.github.io/responsive-move/">See it in action</a></p>
     </aside>
   </div>
   <h3>Usage</h3>
